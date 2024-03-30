@@ -11,6 +11,7 @@ a.box{
     border-radius: 10px;
     color: white;
     text-decoration: none;
+    font-size: small;
 }
 a.box:hover{
     background-color: #0054BC;
