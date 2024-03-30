@@ -3,9 +3,220 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Web Portofolio Pribadi Stefanie</title>
+    <link rel="stylesheet" href="styleStefanieTugas1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-    Stefanie(SI)
+  <div class="sticky-top">
+  <nav class="navbar navbar-expand-lg" id="navbar-example2">
+    <div class="container-fluid">
+      <img src="Stefanie.png" style="width:150px; padding-right: 15px;">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="background-color: aliceblue;">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link" href="#scrollspyHeading1">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#scrollspyHeading2">Profil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#scrollspyHeading3">Pendidikan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#scrollspyHeading4">Portofolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#scrollspyHeading5">Aktivitas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#scrollspyHeading6">Pencapaian</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </nav>
+    </div>
+  </div>
+  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example p-3 rounded-2" tabindex="0">
+    <button onclick="myFunction()" style="text-align: right; border-radius: 10px; background-color: #0070FF; color:white; border: #0070FF; padding:10px;">Ubah Tema</button>
+    <script>
+      function myFunction(){
+        var element = document.body;
+        element.classList.toggle("ubah-tema");
+      }
+    </script>
+    <div class="Beranda container">
+    <div class="row">
+    <div class="col-md-auto" style="margin: auto;">
+    <div class="ftBeranda"><img src="Foto.png" class="fotoBeranda"></div><br>
+    </div>
+    <div class="col-md-auto" style="margin: auto;">
+    <h4 id="scrollspyHeading1" style="font-size: 280%;">Hai, saya Stefanie!</h4>
+    <p>"Akan didapatkan sesuatu yang berharga dari belajar dan berproses"<br><br>
+      <img src="Instagram.png" style="width:50px;">
+      <a href="https://www.instagram.com/stefaniee8888?igsh=MWVtYzJ1Zmdwbm1scw==" class="box" target="_blank">
+        @stefaniee8888
+      </a><br>
+      <img src="Gmail.png" style="width:40px;">
+      <a href="mailto:stefanie_2226240009@mhs.mdp.ac.id" class="box" target="_blank">
+        stefanie_2226240009@mhs.mdp.ac.id
+      </a><br>
+      <img src="WhatsApp.png" style="width:40px;">
+      <a href="#" class="box disableLink">
+        085609447017
+      </a>
+    </p>
+    </div>
+    </div>
+    </div>
+    <div class = "blue">
+    <br><h4 id="scrollspyHeading2">Profil</h4>
+    <p>Halo, perkenalkan nama saya Stefanie. Saya adalah mahasiswi semester 4. Saya tertarik pada 
+      bidang komputer karena menurut saya belajar komputer sangat seru dan tidak membosankan. Selalu 
+      ada hal baru yang dapat dipelajari dan membuat kita pantang menyerah dalam mencoba. Ketertarikan 
+      saya pada bidang komputer membuat saya mengambil program studi Sistem Informasi di Universitas 
+      Multi Data Palembang. Selain komputer, saya juga tertarik dengan bidang musik, khususnya piano. 
+      Saat ini saya kuliah sambil bekerja.
+    </p><br>
+    <table class="table table-bordered border-primary">
+      <tr>
+        <td>Nama</td>
+        <td>Stefanie</td>
+      </tr>
+      <tr>
+        <td>NPM</td>
+        <td>2226240009</td>
+      </tr>
+      <tr>
+        <td>Program Studi</td>
+        <td>Sistem Informasi</td>
+      </tr>
+      <tr>
+        <td>Semester</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Tempat, Tanggal Lahir</td>
+        <td>Palembang, 14 April 2005</td>
+      </tr>
+      <tr>
+        <td>Alamat</td>
+        <td>Sekip Kecamatan Kemuning Palembang</td>
+      </tr>
+      <tr>
+        <td>Status</td>
+        <td>Mahasiswi</td>
+      </tr>
+    </table>
+    <br><br>
+    </div>
+    <br><h4 id="scrollspyHeading3">Pendidikan</h4><br>
+    <ol class="list-group list-group-numbered">
+      <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+          <div class="fw-bold">Sekolah Dasar</div>
+          SD St. Agatha Palembang
+        </div>
+        <span class="badge text-bg-primary rounded-pill">2010-2016</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+          <div class="fw-bold">Sekolah Menengah Pertama (SMP)</div>
+          SMP Xaverius Maria Palembang
+        </div>
+        <span class="badge text-bg-primary rounded-pill">2016-2019</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+          <div class="fw-bold">Sekolah Menengah Atas (SMA)</div>
+          SMA Xaverius 3 Palembang
+        </div>
+        <span class="badge text-bg-primary rounded-pill">2019-2022</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+          <div class="fw-bold">Perguruan Tinggi</div>
+          Universitas Multi Data Palembang
+        </div>
+        <span class="badge text-bg-primary rounded-pill">2022-sekarang</span>
+      </li>
+    </ol><br>
+    <div class="blue">
+    <br><h4 id="scrollspyHeading4">Portofolio</h4><br>
+    <div class="row">
+      <div class="col-sm-4 mb-3 mb-sm-0">
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">Kegiatan Sosialisasi Pemahaman Pendidikan Anti Korupsi</h5>
+            <p class="card-text">SMA Methodist 2 Palembang<br>Tahun 2022</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 mb-3 mb-sm-0">
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">Pelatihan Pemanfaatan Google Workspace untuk Kolaborasi Pembelajaran</h5>
+            <p class="card-text">SMK Methodist 2 Palembang<br>Tahun 2022</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 mb-3 mb-sm-0">
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">Studi Kasus Penerapan Etika Sistem Informasi dan Teknologi Informasi</h5>
+            <p class="card-text">SMP Xaverius 2 Palembang<br>Tahun 2023</p>
+          </div>
+        </div>
+      </div>
+    </div><br>
+    </div>
+    <br><h4 id="scrollspyHeading5">Aktivitas</h4><br>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Aktivitas1.jpg" class="d-block w-100" alt="Gambar Aktivitas 1">
+        </div>
+        <div class="carousel-item">
+          <img src="Aktivitas2.jpg" class="d-block w-100" alt="Gambar Aktivitas 2">
+        </div>
+        <div class="carousel-item">
+          <img src="Aktivitas3.jpg" class="d-block w-100" alt="Gambar Aktivitas 3">
+        </div>
+        <div class="carousel-item">
+          <img src="Aktivitas4.jpg" class="d-block w-100" alt="Gambar Aktivitas 4">
+        </div>
+        <div class="carousel-item">
+          <img src="Aktivitas5.jpg" class="d-block w-100" alt="Gambar Aktivitas 5">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button><br>
+    </div>
+    <div class = "blue"><br>
+    <h4 id="scrollspyHeading6">Pencapaian</h4>
+    <ul>
+      <li>Juara 3 Yamaha Piano Competition 2017 Tingkat Sekolah Kategori Junior B</li>
+      <li>Gold Award Festival Piano Swara Indah 2018 Kategori Pre Elementary</li>
+      <li>Gold Winner Swara Indah Music Fiesta 2020</li>
+      <li>Juara 1 Yamaha Piano Competition 2022 Tingkat Sekolah Kategori Piano Ensemble</li>
+      <li>Juara 2 Yamaha Piano Competition 2022 Tingkat Wilayah Sumatera Kategori Piano Ensemble</li>
+      <li>Outstanding Award Palembang Fiesta de Piano Kategori Duet Piano 2024</li>
+    </ul><br>
+    </div>
+  </div>
+  <div class="footer">
+    <br>&copy 2024 Stefanie<br><br>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
